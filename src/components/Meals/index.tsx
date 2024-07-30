@@ -2,6 +2,7 @@ import Button from "@components/Button";
 import * as S from "./styles";
 import { Plus } from "lucide-react-native";
 import theme from "@theme/index";
+import DayList from "@components/DayList";
 
 export default function Meals() {
   return (
@@ -15,6 +16,7 @@ export default function Meals() {
           console.log("Nova refeição");
         }}
       />
+      <DayList />
     </S.Container>
   );
 }
