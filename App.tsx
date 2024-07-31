@@ -7,6 +7,7 @@ import {
   NunitoSans_700Bold,
   useFonts,
 } from "@expo-google-fonts/nunito-sans";
+import Estatisticas from "@screens/Estatisticas";
 
 export default function App() {
   const [fontsLoaded] = useFonts({
@@ -22,7 +23,7 @@ export default function App() {
         translucent
       />
       {fontsLoaded ? (
-        <Home />
+        <Estatisticas />
       ) : (
         <View
           style={{ flex: 1, justifyContent: "center", alignItems: "center" }}
