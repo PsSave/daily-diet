@@ -7,7 +7,14 @@ export default function Home() {
   return (
     <S.Container>
       <Header />
-      <Box type="primary" isShowHidden />
+      <Box
+        type="primary"
+        percent="90,86%"
+        description="das refeições dentro da dieta"
+        iconPosition="right"
+        style={{ width: "100%" }}
+        isShowHidden
+      />
       <Meals />
     </S.Container>
   );
