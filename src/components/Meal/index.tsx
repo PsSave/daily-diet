@@ -13,7 +13,7 @@ export default function Meal({ hour, title, status = true }: MealProps) {
     <S.Container activeOpacity={0.7}>
       <S.Hour>{hour}</S.Hour>
       <S.Divider />
-      <S.Title>{title}</S.Title>
+      <S.Title numberOfLines={1}>{title}</S.Title>
       <S.Status status={status} />
     </S.Container>
   );

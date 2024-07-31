@@ -43,6 +43,7 @@ export const Title = styled.Text`
     font-size: ${theme.FONT_SIZES.MD}px;
     font-family: ${theme.FONT_FAMILY.REGULAR};
     color: ${theme.COLORS.GRAY_2};
+    margin-right: 12px;
   `}
 `;
 
