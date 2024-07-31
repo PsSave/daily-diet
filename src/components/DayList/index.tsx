@@ -19,7 +19,7 @@ export default function DayList() {
       data: [
         {
           hour: "14:00",
-          title: "Macarrão com molho branco",
+          title: "Macarrão com molho branco e bacon",
           status: true,
         },
         {
